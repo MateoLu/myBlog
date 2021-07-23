@@ -8,7 +8,7 @@ module.exports = {
       "link",
       {
         rel: "icon",
-        href: "./public/favicon.ico",
+        href: "/favicon.ico",
       },
     ],
     [
@@ -79,7 +79,7 @@ module.exports = {
     searchMaxSuggestions: 10,
     lastUpdated: "Last Updated",
     author: "Lewin",
-    authorAvatar: "./public/avatar.png",
+    authorAvatar: "/avatar.png",
     record: "xxxx",
     startYear: "2021",
   },
