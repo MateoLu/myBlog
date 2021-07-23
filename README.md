@@ -2,7 +2,7 @@
 home: true
 heroText: 足球猿的博客
 tagline: 分享一些前端知识，不断提升，努力上进！
-# heroImage: /hero.png
+# heroImage: ./public/hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
 #   width: '100%',
