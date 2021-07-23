@@ -2,6 +2,7 @@ module.exports = {
   title: "足球猿",
   description: "分享一点自己的前端知识",
   dest: "public",
+  base: "/https://likcen.21cloudbox.com/",
   head: [
     [
       "link",
@@ -73,7 +74,7 @@ module.exports = {
         link: "https://vuepress-theme-reco.recoluan.com",
       },
     ],
-    logo: "./logo.png",
+    logo: "/logo.png",
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: "Last Updated",
