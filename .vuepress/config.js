@@ -2,7 +2,7 @@ module.exports = {
   title: "足球猿",
   description: "分享一点自己的前端知识",
   dest: "public",
-  base: "/my_blog/",
+  base: "./",
   head: [
     [
       "link",
