@@ -3,7 +3,7 @@ module.exports = {
   title: "威博客",
   description: "分享一点自己的前端知识",
   dest: "public",
-  base: "/",
+  base: "/lewin.github.io/",
   head: [
     [
       "link",
