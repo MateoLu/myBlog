@@ -1,5 +1,6 @@
+const sidebar = require('./sidebar')
 module.exports = {
-  title: "足球猿",
+  title: "威博客",
   description: "分享一点自己的前端知识",
   dest: "public",
   base: "/",
@@ -19,8 +20,19 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    "@vuepress-reco/vuepress-plugin-comments",
+    "vuepress-plugin-meting",
+  ],
   theme: "reco",
   themeConfig: {
+    mode: "light",
+    subSidebar: "auto",
+    valineConfig: {
+      appId: "2EGVFVXUjPQj9iL6GbNeKEws-gzGzoHsz",
+      appKey: "u5SYjog04FbcyVWJxiarcjpN",
+    },
+    codeTheme: 'okaidia',
     nav: [
       {
         text: "主页",
@@ -37,17 +49,14 @@ module.exports = {
         icon: "reco-message",
         items: [
           {
-            text: "GitHub",
-            link: "https://github.com/recoluan",
+            text: "Gitee",
+            link: "https://gitee.com/torresloo",
             icon: "reco-github",
           },
         ],
       },
     ],
-    sidebar: {
-      "/docs/theme-reco/": ["", "theme", "plugin"],
-      "/docs/css/": ["base"],
-    },
+    sidebar,
     type: "blog",
     blogConfig: {
       category: {
@@ -59,27 +68,12 @@ module.exports = {
         text: "标签",
       },
     },
-    friendLink: [
-      {
-        title: "午后南杂",
-        desc: "Enjoy when you can, and endure when you must.",
-        email: "1156743527@qq.com",
-        link: "https://www.recoluan.com",
-      },
-      {
-        title: "足球猿的个人博客",
-        desc: "分享一些前端知识，不断提升，努力上进！",
-        avatar:
-          "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: "https://vuepress-theme-reco.recoluan.com",
-      },
-    ],
     logo: "/logo.png",
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: "Last Updated",
     author: "Lewin",
-    authorAvatar: "/avatar.png",
+    authorAvatar: "/avatar.jpeg",
     record: "xxxx",
     startYear: "2021",
   },
