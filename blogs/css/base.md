@@ -5,7 +5,6 @@ categories:
  - CSS
 tags:
  - css
-sticky: 1
 ---
 
 # CSS 权重
