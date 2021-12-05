@@ -5,7 +5,6 @@ categories:
  - Node
 tags:
  - Node.js
-sticky: 1
 ---
 
 # 一、Node.js
