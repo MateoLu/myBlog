@@ -1,6 +1,6 @@
 ---
 title: 数组常见手写面试题
-date: 2020-05-29
+date: 2021-12-5
 categories:
  - JavaScript
 tags:
