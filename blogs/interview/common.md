@@ -137,7 +137,7 @@ tree 进行渲染后显示在显示器中，用户此时可以看到页面被渲
 
 1. 说一下浏览器缓存
 
-![preview](https://segmentfault.com/img/bVuuo2/view)
+<img :src="$withBase('/interview/01.png')"></img>
 
 浏览器缓存主要分为强**强缓存**（也称**本地缓存**）和**协商缓存**（也称**弱缓存**）。根据上图，浏览器在第一次请求发生后，再次发送请求时：
 

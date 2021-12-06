@@ -2,7 +2,7 @@ const { createSideBarConfig } = require('./util')
 const CSS_PATH = '/blogs/css'
 const NODE_PATH = '/blogs/node'
 const JS_PATH = '/blogs/javascript'
-const PREVIEW_PATH = '/blogs/preview'
+const PREVIEW_PATH = '/blogs/interview'
 
 module.exports = {
   [CSS_PATH]: [createSideBarConfig('CSS 技巧', CSS_PATH)],

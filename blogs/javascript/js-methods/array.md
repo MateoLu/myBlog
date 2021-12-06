@@ -4,7 +4,7 @@ date: 2021-12-5
 categories:
  - JavaScript
 tags:
- - JS 面试相关
+ - JS 数组
 sticky: 1
 ---
 
